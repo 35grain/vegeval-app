@@ -25,8 +25,8 @@ useHead({
                         <input id="passwordInput" type="password" class="input input-bordered w-full max-w-xs" />
                     </div>
                     <div class="card-actions justify-between">
-                        <div class="tooltip" data-tip="Registration is not available yet">
-                            <a class="btn btn-accent btn-outline btn-disabled" tabindex="-1" aria-disabled="true">Register</a>
+                        <div class="tooltip" data-tip="Registration is not available to the public">
+                            <a class="btn btn-outline btn-disabled" tabindex="-1" aria-disabled="true">Register</a>
                         </div>
                         <button class="btn btn-primary" type="submit">Login</button>
                     </div>
