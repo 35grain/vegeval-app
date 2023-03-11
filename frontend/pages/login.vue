@@ -13,20 +13,22 @@ useHead({
             <div class="card w-96 glass mx-auto">
                 <div class="card-body">
                     <div class="form-control w-full max-w-xs">
-                        <label class="label">
+                        <label class="label" for="emailInput">
                             <span class="label-text">E-mail</span>
                         </label>
-                        <input type="email" placeholder="john@deere.com" class="input input-bordered w-full max-w-xs" />
+                        <input id="emailInput" type="email" placeholder="john@deere.com" class="input input-bordered w-full max-w-xs" />
                     </div>
                     <div class="form-control w-full max-w-xs">
-                        <label class="label">
+                        <label class="label" for="passwordInput">
                             <span class="label-text">Password</span>
                         </label>
-                        <input type="password" class="input input-bordered w-full max-w-xs" />
+                        <input id="passwordInput" type="password" class="input input-bordered w-full max-w-xs" />
                     </div>
                     <div class="card-actions justify-between">
-                        <button class="btn btn-accent btn-outline">Register</button>
-                        <button class="btn btn-primary">Login</button>
+                        <div class="tooltip" data-tip="Registration is not available yet">
+                            <a class="btn btn-accent btn-outline btn-disabled" tabindex="-1" aria-disabled="true">Register</a>
+                        </div>
+                        <button class="btn btn-primary" type="submit">Login</button>
                     </div>
                 </div>
             </div>

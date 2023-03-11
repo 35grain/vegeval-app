@@ -1,5 +1,10 @@
 export default defineNuxtConfig({
     app: {
+        head: {
+            htmlAttrs: {
+                lang: 'en',
+            }
+        },
         pageTransition: { name: 'page', mode: 'out-in' }
     },
     runtimeConfig: {
@@ -9,7 +14,8 @@ export default defineNuxtConfig({
         }
     },
     modules: [
-        '@nuxtjs/tailwindcss'
+        '@nuxtjs/tailwindcss',
+        '@nuxtjs/html-validator'
     ],
     tailwindcss: {
         cssPath: '~/assets/styles/main.scss'

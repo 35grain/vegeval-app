@@ -1,13 +1,13 @@
 <template>
   <div class="navbar bg-base-100/60 backdrop-blur-md border-b border-b-neutral-800 sticky top-0">
     <div class="flex-1">
-      <NuxtLink to="/">
-        <a class="btn btn-ghost normal-case text-xl">Vegeval</a>
+      <NuxtLink to="/" class="btn btn-ghost normal-case text-xl">
+        Vegeval
       </NuxtLink>
     </div>
     <div class="flex-none">
-      <NuxtLink to="/login">
-        <button class="btn btn-primary">Login</button>
+      <NuxtLink to="/login" class="btn btn-primary">
+        Login
       </NuxtLink>
     </div>
   </div>
