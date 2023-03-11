@@ -1,3 +1,9 @@
+<script setup lang="ts">
+useHead({
+    title: "Login",
+})
+</script>
+
 <template>
     <main class="md:container md:mx-auto">
         <div class="my-32">
